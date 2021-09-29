@@ -1,4 +1,8 @@
-# Next.js boilerplate with TypeScript and Storybook integration
+# My classy personal website
+
+Now it's under development 🚧 
+
+I decided to write it open-source, so visit this repo soon 😉
 
 ![Intro image](./public/assets/images/example-intro.png)
 
