@@ -13,6 +13,7 @@ module.exports = {
     describe: 'readonly',
   },
   rules: {
+    'no-unused-vars': 1,
     'react/react-in-jsx-scope': 0,
     'import/first': 2,
     'import/exports-last': 0,
