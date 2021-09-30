@@ -5,6 +5,8 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+          <meta name="author" content="Igor Sebelev" />
+          <meta name="description" content="Igor Sebelev - Frontend Developer. This is my personal website." />
           <link rel="shortcut icon" href="/favicon.ico" />
           <link rel="apple-touch-icon" sizes="192x192" href="/icon-192x192.png" />
           <link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png" />

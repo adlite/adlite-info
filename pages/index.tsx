@@ -6,7 +6,7 @@ export default function Index(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Next.js Boiler | Home</title>
+        <title>Igor Sebelev | Home</title>
       </Head>
       <ExampleIntroSection />
     </>
