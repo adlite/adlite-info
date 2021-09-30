@@ -9,8 +9,7 @@ export default function ExampleIntroSection(): JSX.Element {
           <h2>Frontend Developer</h2>
         </section>
         <section className={style.section}>
-          <p>🌐 Hello, my name is Igor Sebelev and this is my classy personal website.</p>
-          <p>🚧 Now it is temporarily under development.</p>
+          <p>🚧 Now this website is temporarily under development.</p>
           <p>🔗 And if you wanna find more info about me, check out these links below:</p>
           <ol>
             <li>
