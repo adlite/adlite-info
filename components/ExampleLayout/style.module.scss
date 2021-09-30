@@ -5,4 +5,8 @@
 .main {
   padding-top: $headerHeight;
   min-height: 100vh;
+
+  @include onPhone() {
+    padding-top: $headerHeightPhone;
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "next-ts-storybook-boilerplate",
+  "name": "adlite-info",
   "version": "1.0.0",
   "author": "Adlite <adlite.it@gmail.com> (https://github.com/adlite)",
   "engines": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adlite/next-ts-storybook-boilerplate.git"
+    "url": "https://github.com/adlite/adlite-info.git"
   },
   "license": "MIT",
   "scripts": {

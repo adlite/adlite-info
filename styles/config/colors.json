@@ -6,9 +6,11 @@
 
   "bgPrimaryColor": "#E1EBF3",
   "bgPrimaryTextColor": "#201F25",
+  "bgPrimarySubTextColor": "#5e5e5e",
 
-  "bgSecondaryColor": "#000000",
-  "bgSecondaryTextColor": "#FFFFFF",
+  "bgSecondaryColor": "#FFFFFF",
+  "bgSecondaryTextColor": "#201F25",
+  "bgSecondarySubTextColor": "#5e5e5e",
 
   "borderPrimaryColor": "#E6E6E6"
 }

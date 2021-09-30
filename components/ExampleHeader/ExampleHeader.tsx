@@ -13,11 +13,13 @@ export default function ExampleHeader({className = '', isLogoHidden = false}: Pr
   return (
     <header className={cn(style.ExampleHeader, className)}>
       {isLogoHidden || (
-        <Link href="/" passHref>
-          <a>
-            <Image src="/assets/vector/example-logo.svg" width={192} height={57} alt="Logo" />
-          </a>
-        </Link>
+        <div className={style.logoWrapper}>
+          <Link href="/" passHref>
+            <a>
+              <Image src="/assets/vector/example-logo.svg" width={192} height={57} alt="Logo" />
+            </a>
+          </Link>
+        </div>
       )}
     </header>
   );

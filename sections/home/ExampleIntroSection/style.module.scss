@@ -1,17 +1,63 @@
 .ExampleIntroSection {
-  text-align: center;
-  height: calc(100vh - #{$headerHeight});
+  min-height: calc(100vh - #{$headerHeight});
   display: flex;
   align-items: center;
   justify-content: center;
 
-  .container {
-    max-width: 400px;
+  @include onPhone() {
+    align-items: start;
   }
 
-  .linksWrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px;
+  h1 {
+    line-height: 1;
+    font-size: 64px;
+
+    @include onPhone() {
+      font-size: 32px;
+      line-height: unset;
+    }
+  }
+
+  h2 {
+    font-size: 32px;
+    color: $bgPrimarySubTextColor;
+
+    @include onPhone() {
+      font-size: 18px;
+    }
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+
+  ol {
+    list-style: decimal inside;
+  }
+
+  .container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: #{$containerMaxWidth}px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+
+    @include onPhone() {
+      grid-template-columns: 1fr;
+      grid-template-rows: 2fr;
+    }
+  }
+
+  .section {
+    padding: 30px;
+    background-color: $bgSecondaryColor;
+    border-radius: 20px;
+    border: 1px solid $borderPrimaryColor;
+
+    @include onTablet() {
+      padding: 20px;
+    }
   }
 }
